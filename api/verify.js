@@ -1,6 +1,7 @@
 const WHITELIST_DB = {
   "KEY-DEV-TESTING": { placeId: 0, active: true },
   "KEY-PEMBELI-SAMPLE": { placeId: 123456789, active: true }
+  "KEY-PEMBELI-1": { placeId: 10763996436, active: true }
 };
 
 // Masukkan link raw dari GitHub Gist / file hosting kamu di sini
