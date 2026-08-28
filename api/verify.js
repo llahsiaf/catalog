@@ -4,7 +4,7 @@ const WHITELIST_DB = {
 };
 
 // Masukkan link raw dari GitHub Gist / file hosting kamu di sini
-const SCRIPT_URL = "https://gist.githubusercontent.com/llahsiaf/7c611bdd6b72d146404a87c854a57ea8/raw/43439a8bfc08b2a27fcc3a21fc2c11c3d1b6fe43/cataloggg";
+const SCRIPT_URL = "https://gist.githubusercontent.com/llahsiaf/7c611bdd6b72d146404a87c854a57ea8/raw/93b74e31625405c9e86195e4c4fca97efbbe7864/cataloggg";
 
 export default function handler(req, res) {
   // Tambahkan header eksplisit agar Vercel mengirim format JSON murni ke Roblox
