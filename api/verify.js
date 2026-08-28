@@ -4,7 +4,7 @@ const WHITELIST_DB = {
 };
 
 // Masukkan link raw dari GitHub Gist / file hosting kamu di sini
-const SCRIPT_URL = "https://gist.githubusercontent.com/llahsiaf/37ffc1f587cd34c3fa61dcc8a265349c/raw/a7ae75b3bf4a72611a6575c948235fef4a057514/catalog";
+const SCRIPT_URL = "https://gist.githubusercontent.com/llahsiaf/7c611bdd6b72d146404a87c854a57ea8/raw/2a2b82823161f3c8ddc9d5b94691a328801fc5f4/cataloggg";
 
 export default function handler(req, res) {
   if (req.method !== 'POST') {
