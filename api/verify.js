@@ -4,7 +4,7 @@ const WHITELIST_DB = {
   "KEY-PEMBELI-1": { placeId: 76361626105292, active: true }
 };
 
-const SCRIPT_URL = "https://gist.githubusercontent.com/llahsiaf/7c611bdd6b72d146404a87c854a57ea8/raw/aead3c841190638b8da57bdc1c691ddd5e21dd79/cataloggg";
+const SCRIPT_URL = "https://gist.githubusercontent.com/llahsiaf/5fcfd9f98f33259883221411738a1cda/raw/929fe510ff3de6057b8a1fc650dd08c500621e6b/fixcatalog";
 
 export default function handler(req, res) {
   res.setHeader('Content-Type', 'application/json');
