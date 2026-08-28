@@ -7,6 +7,9 @@ const WHITELIST_DB = {
 const SCRIPT_URL = "https://gist.githubusercontent.com/llahsiaf/7c611bdd6b72d146404a87c854a57ea8/raw/43439a8bfc08b2a27fcc3a21fc2c11c3d1b6fe43/cataloggg";
 
 export default function handler(req, res) {
+  // Tambahkan header eksplisit agar Vercel mengirim format JSON murni ke Roblox
+  res.setHeader('Content-Type', 'application/json');
+
   if (req.method !== 'POST') {
     return res.status(405).json({ success: false, message: 'Method Not Allowed' });
   }
@@ -21,7 +24,6 @@ export default function handler(req, res) {
 
   if (clientData && clientData.active) {
     if (clientData.placeId === 0 || clientData.placeId === Number(placeId)) {
-      // Kirim URL saja, sangat ringan dan tidak bikin HTTP 500 / ServerProtocolError
       return res.status(200).json({ success: true, url: SCRIPT_URL });
     }
   }
